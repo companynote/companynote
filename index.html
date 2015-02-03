@@ -87,11 +87,11 @@
                     <!--Desktop Main Menu-->
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                              <li><a href="#menu-features">Will my company sell more?</a></li>
+                              <li><a href="#menu-features">Will I sell more?</a></li>
                               <li><a href="#menu-gallery">How this works?</a></li>
-                              <!--<li><a href="#menu-info">Information</a></li>-->
-                              <li><a href="#menu-pricing">How much?</a></li>
+							  <li><a href="#menu-pricing">How much?</a></li>
                               <li><a data-toggle="modal" href="#contactModal">contact</a></li>
+							  <li><a data-toggle="modal" href="#demoModal">Demo</a></li>
                         </ul>
                      </div>
                      <!--End Desktop Main Menu-->
@@ -400,16 +400,19 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
     </div>
     <!-- end Contact Modal -->
 	
-	<!-- Buy Modal 
+	<!-- Demo Modal -->
     
-	<div id="buyModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+	<div id="demoModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="contactModalLabel">Complete our minimal signup and you are ready to go!</h3>
-			<h4 id="contactModalLabel">We are giving you a <strong><i>2 weeks free trial</i></strong>  before you have to pay anything!</h4>
+            <h3 id="contactModalLabel">Try our demo too see how it would work for your customers!</h3>
+			<p id="contactModalLabel">Just click below and sign-up to our demo with a Facebook account. The permissions you will see are the same ones CompanyNote customized apps will ask your customers.</p>
         </div>
         <div class="modal-body">
+		
+			<a href="http://api.reduclub.com.br/login/facebook?success_callback=http%3A%2F%2Fwww.companynote.net&failure_callback=http%3A%2F%2Fwww.reduclub.com.br%2F%3Fmsg%3Dlogin-failure" ><button id="demo" class="btn">Try Now<img src="img/btn-tour-icon.png" alt="icon"> </button> </a>
             
+			<!-- Original Form
             <form id="form-contact" class="form_online" role="form" action="contact-form.php" method="post" accept-charset="utf-8">
                 <label class="no">Email</label>
                 <input type="email" placeholder="Enter your email*" name="email" >
@@ -418,12 +421,13 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
                 <h5>All fields with an * are required.</h5>
                 <input type="submit" value="Send" class="send">
             </form>
-            
+            -->
+			
         </div>
         <div class="modal-footer"></div>
     </div>
     
-	end Buy Modal -->
+	<!-- end Demo Modal -->
 
 
 
@@ -488,8 +492,8 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 		                    <p>Facebook notifications don't have spam, as Facebook take good care with user experience on its platform.</br>And as CompanyNote requires a verified opt-in authentication, only the customers that want will receive your offers. No notification spam.</p> 
 		                </div>
 		                <div class="item">
-		                    <h2 class="pull-left"> <img src="img/features-support.png" alt="icon" class="pull-left"> 100% personalized message</h2>
-		                    <p>CompanyNote let you personalized all parts of your message: the notification text; the image of your offer content and the link where the offer will redirect.</br>You will also be able to define the day and hour that each notification will be sent (within the limit of a maximum of 3 notifications per week).</p> 
+		                    <h2 class="pull-left"> <img src="img/features-support.png" alt="icon" class="pull-left"> 100% customized message</h2>
+		                    <p>CompanyNote lets you customize all parts of your message: the notification text; the image of your offer content and the link where the offer will redirect.</br>You will also be able to define the day and hour that each notification will be sent (within the limit of a maximum of 3 notifications per week).</p> 
 		                </div>
 		            </div>
 		        </div>
@@ -783,8 +787,8 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
                                 <h3>CompanyNote is perfect for e-commerce companies of all sizes.</h3>
 								
 								<ul>
-									<li>A one-time Setup Fee of <del>$1,750</del> <b>$1,000</b> <i>(temporary launch offer)</i> for development of your customized Facebook application</li>
-									<li>A monthly subscription fee of <b>$50</b> for hosting and maintenance </li>
+									<li>A one-time Setup Fee of <del>$1,750</del> <b>$990</b> <i>(temporary launch offer)</i> for development of your customized Facebook application</li>
+									<li>A monthly subscription fee of <b>$29</b> for hosting and maintenance </li>
 									<li><strong><span style="color:red">Or you can use our First-year Launch offer: Setup fee and 12 monthly fees, all-included for <b>$1,100</b></span></strong></li>
 								</ul>
 								

@@ -383,7 +383,7 @@ header .btn:hover, header .btn:focus {
 }
 
 .features .item {
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 
@@ -448,9 +448,9 @@ header .btn:hover, header .btn:focus {
 }
 
 .imageinfo {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #d1d1d1;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .gallery h2{
@@ -561,7 +561,7 @@ header .btn:hover, header .btn:focus {
 }
 
 .information .box {
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
 .information img {
@@ -589,7 +589,7 @@ header .btn:hover, header .btn:focus {
 	border-top-right-radius: 50px 50px;
 	border-bottom-right-radius: 50px 50px;
 	padding: 15px 32px; 
-	margin: 20px 0;
+	margin: 10px 0;
 	
 }
 
@@ -724,7 +724,7 @@ header .btn:hover, header .btn:focus {
 
 .pricing-table h3, .pricing-table h4 {
 
-	padding: 24px 0;
+	padding: 12px 0;
 	font-weight: 200;
 	text-align: center;
 	color: #fff;
@@ -853,7 +853,7 @@ header .btn:hover, header .btn:focus {
 	-o-border-radius: 2px; /* Opera */
 	border-radius: 2px; /* W3C */	
 	width: 25%;
-	margin: 0 auto 30px auto;
+	margin: 0 auto 10px auto;
 	border: 0;
 	padding: 10px 10px;
 
@@ -892,7 +892,7 @@ footer {
 }
 
 footer .fitem {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 footer h2 {

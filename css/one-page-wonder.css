@@ -6,13 +6,14 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	
 }
 
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../photobg.jpg') no-repeat center center scroll;
+    background: url('../images/photobg.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -104,12 +105,29 @@ filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccfffff
   background: #C91d4a;
 }
 
+.offer {
+	width: 500px;
+	color:#ff0000;
+	text-align: center;
+	text-shadow:  2px 2px rgb(255,255,255);
+	transition: color .2s;
+	background-image: url('../images/bg2.jpg'); 
+	background-color: lightblue;
+	padding: 6px;
+	  
+  
+}
+
+
+
+
 .featurette-divider {
     margin: 20px 0;
 }
 
 .featurette {
     overflow: hidden;
+	margin-left: 20px;
 }
 
 .featurette-image.pull-left {
@@ -124,8 +142,16 @@ filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccfffff
     font-size: 50px;
 }
 
+.headlinetwo {
+	font-size: 35px;
+	color: #0891BE; 
+}
+
+
+
+
 footer {
-    margin: 50px 0;
+    margin: 50px 10px;
 }
 
 @media(max-width:1200px) {

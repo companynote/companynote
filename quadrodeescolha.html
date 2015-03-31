@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+
+[class*="icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-size: 3em;
+  speak: none;
+}
+
+
+
+
+		* { 
+		  -webkit-box-sizing: border-box; 
+		  -moz-box-sizing:    border-box; 
+		  box-sizing:         border-box; 
+		  margin: 0;
+		  padding: 0;
+		}
+
+		html {
+		  color: #444;
+		  font-size: 100%;    
+		  background: #f7f7f7 url('bg.jpg') repeat center top;
+		}
+
+		body {
+		  font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+		  text-rendering: optimizeLegibility;
+		  -webkit-font-smoothing: antialiased; 
+		  font-size:18px; 
+		  font-size:1.125rem;
+		  line-height: 1.5;
+		}
+
+
+
+		.page-wrap {
+		  width: 800px;
+		  margin: 80px auto;
+		}
+
+		.escolha {
+		  list-style: none;
+		  text-align: center;
+		  display: inline-block;
+		  width: 250px;
+		  padding: 10px;
+		  margin: 5px;
+		}
+
+		.escolha div {
+		  position: relative;
+		  display: inline-block;
+		  margin-right: -4px; /* See: http://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+		  
+		}
+
+		.escolha>div:before {
+		  content: "";
+		  display: block;
+		  border-top: 1px solid #ddd;
+		  border-bottom: 1px solid #fff;
+		  width: 100%;
+		  height: 1px;
+		  position: absolute;
+		  top: 25%;
+		  z-index: -1;
+		  
+		  
+		}
+
+		.escolha img {
+		  display: block;
+
+		  margin: auto;
+		  width: 144px;
+		  height: 144px;
+		  position: relative;
+		  text-align: center;
+			top: 18px;
+		  border-radius: 50%;
+		  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+		  
+		}
+		
+		.escolha:hover {
+		
+			border-right: 2px solid #0891BE;
+			border-left: 2px solid #0891BE;
+			border-radius: 5%;
+	
+		}
+
+		.fundo {
+
+		  display: block;
+		  background: #fff;
+		  border-top: 2px solid #ddd;
+		  position: absolute;
+		  width: 180px;
+		  height: 180px;
+		  z-index: -1;
+		  border-radius: 50%;
+		  box-shadow: inset 0px 8px 48px #ddd;
+		  
+		}
+
+		
+		.nome {
+		
+		margin: 30px 0 0 0;
+		padding: 0 20px;
+		background-color: rgba(255,255,255,0.7);
+		
+		
+		}
+		
+		.desc {
+		
+			font-size: smaller;
+		
+		}
+		
+		
+		
+			a {
+				color: inherit;
+			  text-decoration: none;
+			}
+
+
+			a:focus { 
+			  outline: none;
+			}
+
+	
+	</style>
+	
+</head>
+
+<body>
+	
+<div class="page-wrap">
+
+
+					<h1>Você ainda pode escolher! :)</h1>
+					<h2>Escolha em qual loja quer receber seu desconto especial de 20%:</h2>
+	
+					<a href="http://www.mobly.com.br"><div class="escolha">
+						<div>
+							<div class="fundo"><img src="logo-mobly.png"/></div>
+								<div class="nome">
+									<h2>Mobly</h2>
+									<p class="desc">Loja de Móveis e artigos de decoração. Móveis, utilidades domésticas, eletrodomésticos, iluminação e outros.</p>
+								</div>
+						</div>
+					</div></a>
+					
+					<a href="http://www.centauro.com.br"><div class="escolha">
+						<div>
+							<div class="fundo"><img src="logo-centauro.png"/></div>
+								<div class="nome">
+									<h2>Centauro</h2>
+									<p class="desc">Loja de Esportes. Calçados, camisetas, acessórios e equipamentos esportivos, camisas de times e outros.</p>
+								</div>	
+						</div>
+					</div></a>
+					
+					<a href="http://www.rihappy.com.br"><div class="escolha">
+						<div>
+							<div class="fundo"><img src="logo-rihappy.png"/></div>
+								<div class="nome">
+									<h2>Ri Happy</h2>
+									<p class="desc">Loja de Brinquedos. Brinquedos, games, eletrônicos, moda infantil, colecionáveis e outros.</p>
+								</div>	
+						</div>
+					</div></a>
+
+
+	</div>
+
+
+
+
+</body>
+</html>

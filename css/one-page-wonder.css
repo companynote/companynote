@@ -86,7 +86,7 @@ border-right: 1px solid  rgba(0,0,0,0.15);
 }
 
 .button:hover span, .button.active span {
-  background-color:#c91d4a;
+  background-color:#C10000;
   border-right: 1px solid  rgba(0,0,0,0.3);
 }
 
@@ -102,7 +102,7 @@ filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccfffff
 }
 
 .button.orange {
-  background: #C91d4a;
+  background: #C10000;
 }
 
 .offer {
